@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd "
+       default-autowire="byType">
+
+    <!--程序员不指定装配的参数，容器自动查询后装配-->
+<!--    <bean id="a" class="com.ys.xml.A" />-->
+
+    <bean id="i1" class="com.ys.xml.I1"/>
+
+    <bean id="i2" class="com.ys.xml.I2"/>
+
+</beans>
